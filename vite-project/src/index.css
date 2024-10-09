@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+    background: #730002;
+    list-style: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #ddd;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+}
+
+.active:hover{
+    border-radius: 8px;
+    background: #730002;
+    color:#fff ;
+    border: none;
+    cursor: pointer;
+}

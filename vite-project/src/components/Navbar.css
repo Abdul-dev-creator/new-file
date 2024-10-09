@@ -1,0 +1,86 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.pic{
+    width: 150px;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(36, 20, 20, 0.658);
+    margin: 5px 50px;
+    
+    
+    
+}
+.Side{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* From Uiverse.io by Gaurav-WebDev */ 
+.button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button:hover {
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .type1::after {
+    content: "Thanks";
+    height: 50px;
+    width: 150px;
+    background-color: #A52A2A;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1::before {
+    content: "Sign up";
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    color: #A52A2A;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }
